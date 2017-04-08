@@ -9,6 +9,7 @@ namespace FirstCSharp
     {
         static void Main(string[] args)   // static
         {
+            #region firstCsharp
             if (args.Length == 2)
             {
                 System.Console.WriteLine("args.Length is 2");
@@ -33,7 +34,13 @@ namespace FirstCSharp
             Console.WriteLine("Please enter your name:");
             Console.ReadLine();//读取用户输入
             Console.WriteLine("Welcome to you !");
-            
+            #endregion firstCsharp
+        }
+
+        public int puls(int a, int b)
+        {
+            return a + b;
         }
     }
+
 }
